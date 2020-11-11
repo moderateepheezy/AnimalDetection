@@ -14,11 +14,11 @@ This is a simple CoreML sample project to detect trained data set that current p
 9. Sheep
 10. Chicken
 
-> **Technology Used**
+## Technology Used
 
     Xcode, Swift, ARKit, Vision, CoreML
     
-> **How to test**
+## How to test
 
 Make sure you have the following tool:  a Macbook, XCode 12+(download from the AppStore if you don't have one), a Physical device(iPhone 7 and above).
 Folllow the steps below after you've confrim Xcode on your Macbook:
@@ -30,7 +30,7 @@ Folllow the steps below after you've confrim Xcode on your Macbook:
 
 You can now test the app on a physical device.
 
-> **How it works**
+## How it works
 
 If you place the app infront of an object, every 0.5 seconds `ARSCNView` captures it's current frame, and process a request using a custom `VNCoreMLModel` called `AnimalClassifierModel` a custom image classifier that has trained data set for the 10 animals. If the current captured frame is a picture of an animal, it automatically presents a new screen with the captured image, a caption with percentage of accurancy.
 
