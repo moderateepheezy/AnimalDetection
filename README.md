@@ -32,6 +32,6 @@ You can now test the app on a physical device.
 
 > **How it works**
 
-If you place the app infront of an object, every 0.5 seconds `ARSCNView` captures it's current frame, and process a request using a custom `VNCoreMLModel` called `AnimalClassifierModel` a image classifier that has trained data set for the 10 animals. If the current captured frame is a picture of an animal, it automatically presents a new screen with the captured image, a caption with percentage of accurancy.
+If you place the app infront of an object, every 0.5 seconds `ARSCNView` captures it's current frame, and process a request using a custom `VNCoreMLModel` called `AnimalClassifierModel` a custom image classifier that has trained data set for the 10 animals. If the current captured frame is a picture of an animal, it automatically presents a new screen with the captured image, a caption with percentage of accurancy.
 
 **Note:-** The detection accuracy is not currently perfect as you'll find case where it detects a random object as butterfly or any other animal in the sample. 
